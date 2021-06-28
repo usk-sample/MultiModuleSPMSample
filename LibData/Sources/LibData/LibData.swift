@@ -1,3 +1,7 @@
-struct LibData {
-    var text = "Hello, World!"
+public struct LibData {
+    public var text = "Hello, Data!"
+    
+    public init() {
+        
+    }
 }
