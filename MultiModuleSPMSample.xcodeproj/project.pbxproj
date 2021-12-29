@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A80EDCD2277BE901009D9F35 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80EDCD1277BE901009D9F35 /* ViewModel.swift */; };
+		A80EDCDA277BFA79009D9F35 /* MultiModuleSPMSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80EDCD9277BFA79009D9F35 /* MultiModuleSPMSampleTests.swift */; };
 		A8C7767D26898837005C4CD2 /* MultiModuleSPMSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */; };
 		A8C7767F26898837005C4CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7767E26898837005C4CD2 /* ContentView.swift */; };
 		A8C7768126898839005C4CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7768026898839005C4CD2 /* Assets.xcassets */; };
@@ -15,8 +16,20 @@
 		A8C776922689899B005C4CD2 /* LibDomain in Frameworks */ = {isa = PBXBuildFile; productRef = A8C776912689899B005C4CD2 /* LibDomain */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A80EDCDB277BFA79009D9F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C7767126898837005C4CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C7767826898837005C4CD2;
+			remoteInfo = MultiModuleSPMSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		A80EDCD1277BE901009D9F35 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A80EDCD7277BFA79009D9F35 /* MultiModuleSPMSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiModuleSPMSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80EDCD9277BFA79009D9F35 /* MultiModuleSPMSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleSPMSampleTests.swift; sourceTree = "<group>"; };
 		A8C7767926898837005C4CD2 /* MultiModuleSPMSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiModuleSPMSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleSPMSampleApp.swift; sourceTree = "<group>"; };
 		A8C7767E26898837005C4CD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A80EDCD4277BFA79009D9F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8C7767626898837005C4CD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A80EDCD8277BFA79009D9F35 /* MultiModuleSPMSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80EDCD9277BFA79009D9F35 /* MultiModuleSPMSampleTests.swift */,
+			);
+			path = MultiModuleSPMSampleTests;
+			sourceTree = "<group>";
+		};
 		A8C7767026898837005C4CD2 = {
 			isa = PBXGroup;
 			children = (
 				A8C7767B26898837005C4CD2 /* MultiModuleSPMSample */,
+				A80EDCD8277BFA79009D9F35 /* MultiModuleSPMSampleTests */,
 				A8C7767A26898837005C4CD2 /* Products */,
 				A8C7768E2689899B005C4CD2 /* Frameworks */,
 			);
@@ -52,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				A8C7767926898837005C4CD2 /* MultiModuleSPMSample.app */,
+				A80EDCD7277BFA79009D9F35 /* MultiModuleSPMSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +119,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A80EDCD6277BFA79009D9F35 /* MultiModuleSPMSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80EDCDD277BFA79009D9F35 /* Build configuration list for PBXNativeTarget "MultiModuleSPMSampleTests" */;
+			buildPhases = (
+				A80EDCD3277BFA79009D9F35 /* Sources */,
+				A80EDCD4277BFA79009D9F35 /* Frameworks */,
+				A80EDCD5277BFA79009D9F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80EDCDC277BFA79009D9F35 /* PBXTargetDependency */,
+			);
+			name = MultiModuleSPMSampleTests;
+			productName = MultiModuleSPMSampleTests;
+			productReference = A80EDCD7277BFA79009D9F35 /* MultiModuleSPMSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A8C7767826898837005C4CD2 /* MultiModuleSPMSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8C7768826898839005C4CD2 /* Build configuration list for PBXNativeTarget "MultiModuleSPMSample" */;
@@ -115,9 +163,13 @@
 		A8C7767126898837005C4CD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					A80EDCD6277BFA79009D9F35 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = A8C7767826898837005C4CD2;
+					};
 					A8C7767826898837005C4CD2 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -137,11 +189,19 @@
 			projectRoot = "";
 			targets = (
 				A8C7767826898837005C4CD2 /* MultiModuleSPMSample */,
+				A80EDCD6277BFA79009D9F35 /* MultiModuleSPMSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A80EDCD5277BFA79009D9F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8C7767726898837005C4CD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +214,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A80EDCD3277BFA79009D9F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80EDCDA277BFA79009D9F35 /* MultiModuleSPMSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8C7767526898837005C4CD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,7 +234,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A80EDCDC277BFA79009D9F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C7767826898837005C4CD2 /* MultiModuleSPMSample */;
+			targetProxy = A80EDCDB277BFA79009D9F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A80EDCDE277BFA79009D9F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSQNCLF8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.usk.MultiModuleSPMSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiModuleSPMSample.app/MultiModuleSPMSample";
+			};
+			name = Debug;
+		};
+		A80EDCDF277BFA79009D9F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSQNCLF8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.usk.MultiModuleSPMSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiModuleSPMSample.app/MultiModuleSPMSample";
+			};
+			name = Release;
+		};
 		A8C7768626898839005C4CD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +444,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A80EDCDD277BFA79009D9F35 /* Build configuration list for PBXNativeTarget "MultiModuleSPMSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80EDCDE277BFA79009D9F35 /* Debug */,
+				A80EDCDF277BFA79009D9F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A8C7767426898837005C4CD2 /* Build configuration list for PBXProject "MultiModuleSPMSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
