@@ -18,8 +18,9 @@ public class Usecase: ObservableObject {
         
     }
     
-    public func getModel() -> SampleEntity {
-        return store.getModel()
+    public func getModel() -> SampleModel {
+        let entity = store.getEntity()
+        return SampleModel(id: entity.id, name: entity.name)
     }
     
     public func getResponse(completion: @escaping (Result<String, ApiError>) -> Void) {
