@@ -13,11 +13,7 @@ public class Api {
         
     public init() {
         
-    }
-    
-    public func getModel() -> SampleModel {
-        return SampleModel.init(id: "abc", name: "john")
-    }
+    }    
     
     public func getResponse(completion: @escaping (Result<HTTPBinResponse, ApiError>) -> Void) {
         AF.request("https://httpbin.org/get").responseDecodable(of: HTTPBinResponse.self) { response in

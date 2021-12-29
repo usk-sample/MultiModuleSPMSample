@@ -11,6 +11,7 @@ import LibInfra
 
 public class Usecase: ObservableObject {
     
+    private let store = Store()
     private let api = Api()
         
     public init() {
@@ -18,7 +19,7 @@ public class Usecase: ObservableObject {
     }
     
     public func getModel() -> SampleModel {
-        return api.getModel()
+        return store.getModel()
     }
     
     public func getResponse(completion: @escaping (Result<String, ApiError>) -> Void) {
