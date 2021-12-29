@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80EDCD2277BE901009D9F35 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80EDCD1277BE901009D9F35 /* ViewModel.swift */; };
 		A8C7767D26898837005C4CD2 /* MultiModuleSPMSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */; };
 		A8C7767F26898837005C4CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7767E26898837005C4CD2 /* ContentView.swift */; };
 		A8C7768126898839005C4CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7768026898839005C4CD2 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A80EDCD1277BE901009D9F35 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A8C7767926898837005C4CD2 /* MultiModuleSPMSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiModuleSPMSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleSPMSampleApp.swift; sourceTree = "<group>"; };
 		A8C7767E26898837005C4CD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				A8C7768C268988D8005C4CD2 /* LibInfra */,
 				A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */,
 				A8C7767E26898837005C4CD2 /* ContentView.swift */,
+				A80EDCD1277BE901009D9F35 /* ViewModel.swift */,
 				A8C7768026898839005C4CD2 /* Assets.xcassets */,
 				A8C7768526898839005C4CD2 /* Info.plist */,
 				A8C7768226898839005C4CD2 /* Preview Content */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C7767F26898837005C4CD2 /* ContentView.swift in Sources */,
+				A80EDCD2277BE901009D9F35 /* ViewModel.swift in Sources */,
 				A8C7767D26898837005C4CD2 /* MultiModuleSPMSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
