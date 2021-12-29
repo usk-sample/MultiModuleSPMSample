@@ -21,7 +21,6 @@
 		A8C7768026898839005C4CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8C7768326898839005C4CD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8C7768526898839005C4CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8C7768B2689886D005C4CD2 /* LibData */ = {isa = PBXFileReference; lastKnownFileType = text; path = LibData; sourceTree = SOURCE_ROOT; };
 		A8C7768C268988D8005C4CD2 /* LibInfra */ = {isa = PBXFileReference; lastKnownFileType = text; path = LibInfra; sourceTree = SOURCE_ROOT; };
 		A8C7768D268988EA005C4CD2 /* LibDomain */ = {isa = PBXFileReference; lastKnownFileType = text; path = LibDomain; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -60,7 +59,6 @@
 			children = (
 				A8C7768D268988EA005C4CD2 /* LibDomain */,
 				A8C7768C268988D8005C4CD2 /* LibInfra */,
-				A8C7768B2689886D005C4CD2 /* LibData */,
 				A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */,
 				A8C7767E26898837005C4CD2 /* ContentView.swift */,
 				A8C7768026898839005C4CD2 /* Assets.xcassets */,
