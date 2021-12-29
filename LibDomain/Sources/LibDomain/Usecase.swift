@@ -18,7 +18,7 @@ public class Usecase: ObservableObject {
         
     }
     
-    public func getModel() -> SampleModel {
+    public func getModel() -> SampleEntity {
         return store.getModel()
     }
     

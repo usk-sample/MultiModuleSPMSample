@@ -11,8 +11,8 @@ public class Store {
     
     public init() { }
     
-    public func getModel() -> SampleModel {
-        return SampleModel.init(id: "abc", name: "john")
+    public func getModel() -> SampleEntity {
+        return SampleEntity.init(id: "abc", name: "john")
     }
     
 }

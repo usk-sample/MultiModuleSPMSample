@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct SampleModel: Codable {
+public struct SampleEntity: Codable {
     public var id: String
     public var name: String
     
