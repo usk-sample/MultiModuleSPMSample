@@ -92,8 +92,8 @@
 		A8C7767B26898837005C4CD2 /* MultiModuleSPMSample */ = {
 			isa = PBXGroup;
 			children = (
-				A80EDCE0277BFD58009D9F35 /* LibApi */,
 				A8C7768D268988EA005C4CD2 /* LibDomain */,
+				A80EDCE0277BFD58009D9F35 /* LibApi */,
 				A8C7768C268988D8005C4CD2 /* LibInfra */,
 				A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */,
 				A8C7767E26898837005C4CD2 /* ContentView.swift */,
@@ -134,9 +134,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A87DB45A277C0E8B00045A4C /* PBXTargetDependency */,
-				A87DB45C277C0E8B00045A4C /* PBXTargetDependency */,
-				A87DB45E277C0E8B00045A4C /* PBXTargetDependency */,
 				A80EDCDC277BFA79009D9F35 /* PBXTargetDependency */,
 			);
 			name = MultiModuleSPMSampleTests;
@@ -246,18 +243,6 @@
 			isa = PBXTargetDependency;
 			target = A8C7767826898837005C4CD2 /* MultiModuleSPMSample */;
 			targetProxy = A80EDCDB277BFA79009D9F35 /* PBXContainerItemProxy */;
-		};
-		A87DB45A277C0E8B00045A4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = A87DB459277C0E8B00045A4C /* LibApi */;
-		};
-		A87DB45C277C0E8B00045A4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = A87DB45B277C0E8B00045A4C /* LibDomain */;
-		};
-		A87DB45E277C0E8B00045A4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = A87DB45D277C0E8B00045A4C /* LibInfra */;
 		};
 /* End PBXTargetDependency section */
 
@@ -493,18 +478,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A87DB459277C0E8B00045A4C /* LibApi */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LibApi;
-		};
-		A87DB45B277C0E8B00045A4C /* LibDomain */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LibDomain;
-		};
-		A87DB45D277C0E8B00045A4C /* LibInfra */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LibInfra;
-		};
 		A8C776912689899B005C4CD2 /* LibDomain */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LibDomain;

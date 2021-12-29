@@ -6,14 +6,13 @@
 //
 
 import Foundation
-import Combine
 import LibInfra
 import LibApi
 
-public class Usecase: ObservableObject {
+public class Usecase {
     
-    private let store = Store()
-    private let api = Api()
+    private let store = StoreFactory.provideStore()
+    private let api = ApiFactory.provideApi()
         
     public init() {
         

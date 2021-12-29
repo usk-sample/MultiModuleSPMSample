@@ -7,11 +7,17 @@
 
 import Foundation
 
-public class Store {
+public protocol StoreProtocol {
+    func getEntity() -> SampleEntity
+}
+
+class Store {
     
-    public init() { }
+}
+
+extension Store: StoreProtocol {
     
-    public func getEntity() -> SampleEntity {
+    func getEntity() -> SampleEntity {
         return SampleEntity(id: "abc", name: "john")
     }
     

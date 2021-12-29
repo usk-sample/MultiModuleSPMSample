@@ -8,13 +8,17 @@
 import Foundation
 import Alamofire
 
-public class Api {
-        
-    public init() {
-        
-    }    
+public protocol ApiProtocol {
+    func getResponse(completion: @escaping (Result<HTTPBinResponse, ApiError>) -> Void)
+}
+
+class Api {
     
-    public func getResponse(completion: @escaping (Result<HTTPBinResponse, ApiError>) -> Void) {
+}
+
+extension Api: ApiProtocol {
+    
+    func getResponse(completion: @escaping (Result<HTTPBinResponse, ApiError>) -> Void) {
         AF.request("https://httpbin.org/get").responseDecodable(of: HTTPBinResponse.self) { response in
             completion(response.result)
         }
