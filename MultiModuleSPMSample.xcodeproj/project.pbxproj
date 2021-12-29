@@ -30,6 +30,7 @@
 		A80EDCD1277BE901009D9F35 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A80EDCD7277BFA79009D9F35 /* MultiModuleSPMSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiModuleSPMSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80EDCD9277BFA79009D9F35 /* MultiModuleSPMSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleSPMSampleTests.swift; sourceTree = "<group>"; };
+		A80EDCE0277BFD58009D9F35 /* LibApi */ = {isa = PBXFileReference; lastKnownFileType = text; path = LibApi; sourceTree = SOURCE_ROOT; };
 		A8C7767926898837005C4CD2 /* MultiModuleSPMSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiModuleSPMSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleSPMSampleApp.swift; sourceTree = "<group>"; };
 		A8C7767E26898837005C4CD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		A8C7767B26898837005C4CD2 /* MultiModuleSPMSample */ = {
 			isa = PBXGroup;
 			children = (
+				A80EDCE0277BFD58009D9F35 /* LibApi */,
 				A8C7768D268988EA005C4CD2 /* LibDomain */,
 				A8C7768C268988D8005C4CD2 /* LibInfra */,
 				A8C7767C26898837005C4CD2 /* MultiModuleSPMSampleApp.swift */,
