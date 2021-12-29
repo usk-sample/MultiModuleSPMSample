@@ -1,0 +1,50 @@
+{
+  "configurations" : [
+    {
+      "id" : "E7706FCD-A099-4C3F-A187-A0BF434F02D1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MultiModuleSPMSample.xcodeproj",
+      "identifier" : "A8C7767826898837005C4CD2",
+      "name" : "MultiModuleSPMSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MultiModuleSPMSample.xcodeproj",
+        "identifier" : "A80EDCD6277BFA79009D9F35",
+        "name" : "MultiModuleSPMSampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:LibApi",
+        "identifier" : "LibApiTests",
+        "name" : "LibApiTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:LibDomain",
+        "identifier" : "LibDomainTests",
+        "name" : "LibDomainTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:LibInfra",
+        "identifier" : "LibInfraTests",
+        "name" : "LibInfraTests"
+      }
+    }
+  ],
+  "version" : 1
+}

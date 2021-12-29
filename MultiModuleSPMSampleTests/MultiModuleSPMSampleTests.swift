@@ -8,6 +8,9 @@
 import XCTest
 
 @testable import MultiModuleSPMSample
+import LibDomain
+import LibApi
+import LibInfra
 
 class MultiModuleSPMSampleTests: XCTestCase {
 
