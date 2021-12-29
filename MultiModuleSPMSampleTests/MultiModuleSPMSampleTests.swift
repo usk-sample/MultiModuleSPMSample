@@ -7,6 +7,8 @@
 
 import XCTest
 
+@testable import MultiModuleSPMSample
+
 class MultiModuleSPMSampleTests: XCTestCase {
 
     override func setUpWithError() throws {
