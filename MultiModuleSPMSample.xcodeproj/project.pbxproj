@@ -11,9 +11,7 @@
 		A8C7767F26898837005C4CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7767E26898837005C4CD2 /* ContentView.swift */; };
 		A8C7768126898839005C4CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7768026898839005C4CD2 /* Assets.xcassets */; };
 		A8C7768426898839005C4CD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7768326898839005C4CD2 /* Preview Assets.xcassets */; };
-		A8C776902689899B005C4CD2 /* LibData in Frameworks */ = {isa = PBXBuildFile; productRef = A8C7768F2689899B005C4CD2 /* LibData */; };
 		A8C776922689899B005C4CD2 /* LibDomain in Frameworks */ = {isa = PBXBuildFile; productRef = A8C776912689899B005C4CD2 /* LibDomain */; };
-		A8C776942689899B005C4CD2 /* LibInfra in Frameworks */ = {isa = PBXBuildFile; productRef = A8C776932689899B005C4CD2 /* LibInfra */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C776942689899B005C4CD2 /* LibInfra in Frameworks */,
 				A8C776922689899B005C4CD2 /* LibDomain in Frameworks */,
-				A8C776902689899B005C4CD2 /* LibData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +102,7 @@
 			);
 			name = MultiModuleSPMSample;
 			packageProductDependencies = (
-				A8C7768F2689899B005C4CD2 /* LibData */,
 				A8C776912689899B005C4CD2 /* LibDomain */,
-				A8C776932689899B005C4CD2 /* LibInfra */,
 			);
 			productName = MultiModuleSPMSample;
 			productReference = A8C7767926898837005C4CD2 /* MultiModuleSPMSample.app */;
@@ -353,17 +347,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A8C7768F2689899B005C4CD2 /* LibData */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LibData;
-		};
 		A8C776912689899B005C4CD2 /* LibDomain */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LibDomain;
-		};
-		A8C776932689899B005C4CD2 /* LibInfra */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LibInfra;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

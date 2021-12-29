@@ -8,7 +8,6 @@
 import Foundation
 import Combine
 import LibInfra
-import LibData
 
 public class Usecase: ObservableObject {
     
